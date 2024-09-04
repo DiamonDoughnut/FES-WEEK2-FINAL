@@ -136,6 +136,7 @@ NAV BAR
     justify-content: space-between;
     height: 120px;
     width: 100%;
+    transition: all 300ms ease;
 }
 
 .logo__image--wrapper{
