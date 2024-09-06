@@ -592,7 +592,7 @@ VALUES
 .values__list{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     padding: 8px;
 }
 
@@ -629,7 +629,7 @@ VALUES
 }
 
 .values__image{
-    width: 100%;
+    max-width: 50%;
 }
 
 /*
@@ -1321,6 +1321,9 @@ footer{
     }
     .values__row{
         flex-direction: column;
+    }
+    .values__image{
+        max-width: 80%;
     }
 }
 
